@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <nav id="navbar">
-      <div id="logo">
-        <a href="#home" class="logo_name">TRAVEL</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="/js/script.js"></script>
+</head>
+
+<body>
+  <header id="nav-wrapper">
+    <nav id="nav">
+      <div class="nav left">
+        <span class="gradient skew">
+          <h1 class="logo un-skew"><a href="#home">Logo Here</a></h1>
+        </span>
+        <button id="menu" class="btn-nav" title="">
+          <span class="fas fa-bars"></span>
+        </button>
       </div>
-      <div id="menu"></div>
+      <div class="nav right">
+        <a href="#home" class="nav-link active"><span class="nav-link-span"><span class="u-nav">Home</span></span></a>
+        <a href="#about" class="nav-link"><span class="nav-link-span"><span class="u-nav">About</span></span></a>
+        <a href="#work" class="nav-link"><span class="nav-link-span"><span class="u-nav">Work</span></span></a>
+        <a href="#contact" class="nav-link"><span class="nav-link-span"><span class="u-nav">Contact</span></span></a>
+      </div>
     </nav>
-  </body>
+  </header>
+  <main>
+    <section id="home"></section>
+    <section id="about"></section>
+    <section id="work"></section>
+    <section id="contact"></section>
+  </main>
+</body>
+
 </html>
