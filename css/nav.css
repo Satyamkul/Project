@@ -5,8 +5,7 @@ button {
   border: none;
   cursor: pointer;
 }
-
-button:focus,
+fdsadfaf button:focus,
 input:focus {
   outline: 0;
 }
