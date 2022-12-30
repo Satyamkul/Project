@@ -14,28 +14,32 @@ html::-webkit-scrollbar-thumb {
   background: #e60202;
 }
 @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
   }
-  .slide-container {
-    margin: auto;
-    position: relative;
-    height: 100vh;
+  100% {
+    opacity: 1;
   }
-  .slide-container .slide {
-    width: 100%;
-  }
-  .slide-container .slide.fade {
-    animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-  }
-  .slide-container .slide img {
-    width: 100%;
-  }
-  /* As of now, the slide display property is set to none which makes them not visible. We will be adding the visibility in the JavaScript in the later part.
+}
+.slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+.slide-container .slide {
+  display: none;
+  width: 100%;
+}
+.slide-container .slide.fade {
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+.slide-container .slide img {
+  width: 100%;
+}
+/* As of now, the slide display property is set to none which makes them not visible. We will be adding the visibility in the JavaScript in the later part.
   
   But for now, let's first add some styling to the previous buttons and the dots. */
   
