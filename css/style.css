@@ -30,7 +30,6 @@ html::-webkit-scrollbar-thumb {
   position: relative;
 }
 .slide-container .slide {
-  display: none;
   width: 100%;
 }
 .slide-container .slide.fade {
