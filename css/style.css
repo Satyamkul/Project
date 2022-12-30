@@ -67,8 +67,10 @@ html::-webkit-scrollbar-thumb {
 
 .slide-container .prev {
   left: 2px;
+  text-decoration: none;
 }
 
 .slide-container .next {
   right: 2px;
+  text-decoration: none;
 }
