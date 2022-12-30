@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+  }
+  html{
+    overflow-x: hidden;
+  }
+  html::-webkit-scrollbar{
+    width: .8rem;
+  }
+  html::-webkit-scrollbar-track{
+    background: rgba(250, 85, 134, 0.888);
+  }
+  html::-webkit-scrollbar-thumb{
+    background: #e60202;
+  }
