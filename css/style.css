@@ -30,8 +30,8 @@ html::-webkit-scrollbar-thumb {
   position: relative;
 }
 .slide-container .slide {
-  display: none;
-  width: 100%;
+  display: contents;
+  width: auto;
 }
 .slide-container .slide.fade {
   animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
