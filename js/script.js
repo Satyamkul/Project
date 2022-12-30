@@ -35,12 +35,16 @@ $(document).ready(function () {
   $(window).resize(util.windowResize);
   $(document).scroll(util.scrollEvent);
 });
+
+// slider js
 var currentSlide = 0;
 
 const slides = document.querySelectorAll(".slide");
 const init = (n) => {
   slides.forEach((slide) => {
     slide.style.display = "none";
+
+    
   });
   slides[n].style.display = "block";
 };
@@ -64,3 +68,4 @@ document.querySelector(".prev").addEventListener("click", prev);
 setInterval(() => {
   next();
 }, 5000);
+
