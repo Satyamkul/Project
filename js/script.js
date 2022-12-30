@@ -35,6 +35,9 @@ $(document).ready(function () {
   $(window).resize(util.windowResize);
   $(document).scroll(util.scrollEvent);
 });
+
+// image slider js
+
 var currentSlide = 0;
 
 const slides = document.querySelectorAll(".slide");
